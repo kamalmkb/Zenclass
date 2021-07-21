@@ -1,0 +1,36 @@
+For Loop: 
+
+for(i=0; i<obj.length; i++){
+      console.log(obj[i].person);
+      console.log(obj[i].age);
+      console.log(obj[i].company);
+
+  }
+  
+  For of:
+  
+  for(var a of obj ){
+
+    console.log(a.person);
+    console.log(a.age);
+    console.log(a.company);
+  }
+  
+  For In:
+  
+  for(var a in obj ){
+
+    console.log(obj[a].person);
+    console.log(obj[a].age);
+    console.log(obj[a].company);
+  }
+  
+  For Each:
+  
+  obj.forEach(function(Hello){
+    console.log(Hello.person);
+    console.log(Hello.age);
+    console.log(Hello.company);
+
+  }
+  )
