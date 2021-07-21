@@ -1,0 +1,27 @@
+5 difference between Browser JS(console) v Nodejs:
+
+       Console                                   Node JS
+The JS code must be wrapped              There is no such condition here
+inside the HTML code.
+
+We can interact with DOM and API.        We cannot interact.
+
+Objects such as document, window         Document and window cannot be used.
+can be used.
+
+Babel is needed to transform the         No such thing needed.
+code to be ES5 - compatible.
+
+It is an untrustable environment         It is an trustable environment.
+for security related operations.
+
+
+        typeof(1)   -  Number
+        typeof(1.1) - Number
+        typeof('1.1') - string
+        typeof(true)  - Boolean
+        typeof(null)  - Object
+        typeof(undefined) - Undefined
+        typeof([]) - Object
+        typeof({}) - Object
+        typeof(NaN) - Number 
