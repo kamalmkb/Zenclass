@@ -25,3 +25,12 @@ for security related operations.
         typeof([]) - Object
         typeof({}) - Object
         typeof(NaN) - Number 
+
+
+Summary of video:
+    Html is not an straight forward language and it recovers our mistake.
+    The script tag should be used at the bottom of html such that it parses website very fast.
+    The multiple trees are render objects render styles render layers line boxes.
+    Even doing a change in font-size will relayout the entire webpage document.
+    Paint setup is build up over 12 phases.
+    Painting produces a bitmap for each layer.
